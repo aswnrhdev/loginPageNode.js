@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Noto+Sans:wght@500&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;  
+    background-image: url('/assets/rog.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    background-image: url('assets/aura_bg.png');
+    background-size: auto;
+}
+
+.head1{
+    color: white;
+    text-decoration: underline;
+}
+
+.head2{
+    color: orange;
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+
+.btn.btn-success{
+    padding: 0.5em 1.2em;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar-brand:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form{
+    padding: 0 3em;
+}
+
+#login .title >span{
+    font-size: 0.8em;
+}
+
+.dashmain{
+    background-color: goldenrod;
+}
+
+.games{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.featured-games{
+    font-weight: bold;
+    color: black; 
+    text-decoration: underline;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-text{
+    color: orange;
+    font-weight: bold;
+}

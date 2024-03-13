@@ -1,0 +1,113 @@
+<%- include('header') -%>
+
+
+<div class="dashmain">
+    
+    <!--Navbar-->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search for Games" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+          <button class="btn btn-outline-warning" type="submit">
+              <a class="navbar-brand" href="/route/logout">Logout</a>
+          </button>
+        </div>
+    </nav>
+      
+    <!--Content/1-->
+
+        <div class="container mt-4 pt-5 bg-#282828;">
+            <h3 class="mb-4 pt-5 games">Games</h3>
+            <div class="row">
+                <!-- Game Cards -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub1.jpg" class="card-img-top" alt="Image 1" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Auto Shop Bonuses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub2.jpg" class="card-img-top" alt="Image 2" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Bravado Hotring Helfire</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub3.jpg" class="card-img-top" alt="Image 3" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Celebrate Ten Years</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub4.jpg" class="card-img-top" alt="Image 4" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Acid Lab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub5.jpg" class="card-img-top" alt="Image 5" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Red Dead Online</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="/static/assets/sub6.jpg" class="card-img-top" alt="Image 6" style="max-width: 100%;">
+                        <div class="card-body">
+                            <p class="card-text mt-4">Daily Income Triples</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    z<!--Content/2-->
+        <div class="container mt-5">
+            <h3 class="featured-games ps-2 pb-3">
+                Featured Games
+            </h3>
+            <div class="row">
+                 <!-- Featured Game Cards -->
+                <div class="col-6 col-sm-6 col-md-3 mb-3">
+                    <div class="custom-card">
+                        <img src="/static/assets/sub7.jpg" class="card-img" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 mb-3">
+                    <div class="custom-card">
+                        <img src="/static/assets/sub8.jpg" class="card-img" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 mb-3">
+                    <div class="custom-card">
+                        <img src="/static/assets/sub9.jpg" class="card-img" alt="Image 3">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 mb-3">
+                    <div class="custom-card">
+                        <img src="/static/assets/sub10.jpg" class="card-img" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+</div>
+
+
+
+
+<%-include('footer')-%>
